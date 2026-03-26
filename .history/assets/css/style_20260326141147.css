@@ -1,0 +1,53 @@
+@import url("cartao.css");
+
+* {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #252323;
+  color: #ccc;
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex: 1;
+}
+
+nav {
+  width: 8rem;
+  background-color: #eee;
+  padding: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+footer {
+  background-color: #252323;
+  color: #ccc;
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
