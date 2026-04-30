@@ -1,7 +1,7 @@
 header {
   background-color: #252323;
   color: #ccc;
-  height: 4rem;
+  height: 6rem;
   padding: .6rem;
   display: flex;
   align-items: center;
@@ -50,6 +50,6 @@ header {
     color: gray;
 }
 
-.menu-hamburguer: i hover{
-    color: #white;
+.menu-hamburguer:hover i{
+    color: white;
 }

@@ -9,11 +9,11 @@ a{
 }
 
 li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .opcao {
-    diplay: flex;
+    display: flex;
     border-radius: 0.5rem;
     padding: 0.6rem;
     background-color: #ddd;
@@ -27,8 +27,8 @@ li {
     border:0.1rem solid #bdbdbd;
 }
 
-.opcao:hover {
-    border: 0.1rem
+.opcao:hover .rotulo{
+    text-align: right;
 }
 
 .opcao:hover .icone-final {
@@ -36,7 +36,10 @@ li {
 }
 
 .icone-final {
-    width: 1.5rem:
+    width: 1.5rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3 ease-in;
 }
 
 .rotulo {
@@ -48,4 +51,8 @@ li {
     text-align: right;
     opacity: 0;
     transition: opacity 0.3s ease-in;
+}
+
+.menu-oculto{
+    display: none;
 }
