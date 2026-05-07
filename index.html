@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site de notícias</title>
-    <link rel="stylesheet" href="./assets/css/login/estilo.css"/>
+    <link rel="stylesheet" href="./assets/css/login/estilo.css" />
     <script src="./assets/js/login.js" type="module"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">P</div>
@@ -16,8 +18,12 @@
         <h1>Login</h1>
         <form>
             <div class="input-grupo">
-                <i class="fas fa-lock"></i>
+                <i class="fas fa-envelope"></i>
                 <input id="email" type="email" placeholder="Informe seu e-mail">
+            </div>
+            <div class="input-grupo">
+                <i class="fas fa-lock"></i>
+                <input type="senha" type="password" placeholder="Informe sua senha">
             </div>
             <button><i class="fas fa-sign-in-alt"></i>Entrar</button>
         </form>
@@ -26,11 +32,7 @@
             <span>-</span>
             <a href="#">Registre-se</a>
         </div>
-        <form action="">
-            <input type="senha" type="password" placeholder="Informe sua senha">
-            <button on click="verificarCredencias(); return false;">
-                <i class="fas fa-sign-in-alt"></i></button>
-        </form>
     </div>
 </body>
+
 </html>
