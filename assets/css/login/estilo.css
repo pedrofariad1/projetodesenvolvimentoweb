@@ -1,18 +1,44 @@
 @import url("cabecalho.css");
 @import url("painel.css");
 
-{
+* {
     font-size: 16px;
-    font-family: "Segoe UI" , Tahoma, Geneva, Verdana;
-    margin: 0rem;
-    padding: 0 rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 0;
+    padding: 0;
+
     box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
-    background-color: #eee;
-    color: #5e5e5e
+
+    background: linear-gradient(135deg, #2b2b2b, #474747);
+
+    color: #5e5e5e;
+}
+
+main {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+main {
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
 }
